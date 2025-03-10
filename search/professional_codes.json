@@ -1,7 +1,183 @@
 [
     {
-        "id": "132",
-        "name": "Учитель, преподаватель, педагог",
+        "id": "33",
+        "name": "Делопроизводитель, архивариус",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "76",
+        "name": "Менеджер/руководитель АХО",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "157",
+        "name": "Руководитель отдела аналитики",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "172",
+        "name": "Руководитель отдела логистики",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "170",
+        "name": "Руководитель отдела маркетинга и рекламы",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "171",
+        "name": "Руководитель отдела персонала",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "161",
+        "name": "Руководитель филиала",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "21",
+        "name": "Водитель",
+        "accept_incomplete_resumes": true,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "104",
+        "name": "Руководитель группы разработки",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "157",
+        "name": "Руководитель отдела аналитики",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "107",
+        "name": "Руководитель проектов",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "170",
+        "name": "Руководитель отдела маркетинга и рекламы",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "105",
+        "name": "Руководитель отдела клиентского обслуживания",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "106",
+        "name": "Руководитель отдела продаж",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "161",
+        "name": "Руководитель филиала",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "21",
+        "name": "Водитель",
+        "accept_incomplete_resumes": true,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "107",
+        "name": "Руководитель проектов",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "107",
+        "name": "Руководитель проектов",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "108",
+        "name": "Руководитель строительного проекта",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "21",
+        "name": "Водитель",
+        "accept_incomplete_resumes": true,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "172",
+        "name": "Руководитель отдела логистики",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "76",
+        "name": "Менеджер/руководитель АХО",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    },
+    {
+        "id": "171",
+        "name": "Руководитель отдела персонала",
         "accept_incomplete_resumes": false,
         "is_default": false,
         "select_deprecated": false,
