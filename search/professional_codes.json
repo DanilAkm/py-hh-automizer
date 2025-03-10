@@ -1,0 +1,10 @@
+[
+    {
+        "id": "132",
+        "name": "Учитель, преподаватель, педагог",
+        "accept_incomplete_resumes": false,
+        "is_default": false,
+        "select_deprecated": false,
+        "search_deprecated": false
+    }
+]

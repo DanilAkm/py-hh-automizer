@@ -1,0 +1,108 @@
+root:
+  items: # Список вакансий
+    - id: string  # ID вакансии
+      premium: boolean  # Признак премиум-вакансии
+      name: string  # Название вакансии
+      department: null | object  # Департамент (если есть)
+      has_test: boolean  # Есть ли тест при отклике
+      response_letter_required: boolean  # Требуется ли сопроводительное письмо
+      area:
+        id: string  # ID региона
+        name: string  # Название региона
+        url: string  # Ссылка на описание региона
+      salary: 
+        from: int | null  # Минимальная зарплата
+        to: int | null  # Максимальная зарплата
+        currency: string  # Валюта
+        gross: boolean  # До вычета налогов (true) или после (false)
+      type:
+        id: string  # Тип вакансии
+        name: string  # Название типа вакансии
+      address: 
+        city: string
+        street: string
+        building: string
+        lat: float
+        lng: float
+        description: null | string
+        raw: string
+        metro:
+          station_name: string
+          line_name: string
+          station_id: string
+          line_id: string
+          lat: float
+          lng: float
+        metro_stations: 
+          - station_name: string
+            line_name: string
+            station_id: string
+            line_id: string
+            lat: float
+            lng: float
+        id: string  # ID адреса
+      response_url: null | string  # URL для отклика (если есть)
+      sort_point_distance: null | float  # Расстояние до точки сортировки (если есть)
+      published_at: string  # Дата публикации
+      created_at: string  # Дата создания
+      archived: boolean  # Архивирована ли вакансия
+      apply_alternate_url: string  # URL для отклика на hh.ru
+      branding: 
+        type: string  # Тип брендинга
+        tariff: null | string  # Тариф (может быть null)
+      show_logo_in_search: boolean  # Показывать ли логотип в поиске
+      insider_interview: null | object  # Интервью с сотрудниками (если есть)
+      url: string  # API URL вакансии
+      alternate_url: string  # Веб-страница вакансии
+      relations: []  # Список отношений (обычно пуст)
+      employer:
+        id: string  # ID работодателя
+        name: string  # Название компании
+        url: string  # API URL компании
+        alternate_url: string  # Веб-страница компании
+        logo_urls:  
+          "90": string
+          original: string
+          "240": string
+        vacancies_url: string  # URL вакансий компании
+        accredited_it_employer: boolean  # Является ли IT-работодателем
+        trusted: boolean  # Доверенный работодатель
+      snippet:
+        requirement: string | null  # Требования
+        responsibility: string | null  # Обязанности
+      contacts: null | object  # Контактная информация (если есть)
+      schedule:
+        id: string  # ID расписания
+        name: string  # Название расписания
+      working_days: []  # Рабочие дни (обычно пусто)
+      working_time_intervals: []  # Интервалы рабочего времени (обычно пусто)
+      working_time_modes: []  # Режимы работы (обычно пусто)
+      accept_temporary: boolean  # Принимают ли временных сотрудников
+      fly_in_fly_out_duration: []  # Вахта (если есть)
+      work_format:  
+        - id: string
+          name: string
+      working_hours:  
+        - id: string
+          name: string
+      work_schedule_by_days:  
+        - id: string
+          name: string
+      night_shifts: boolean  # Есть ли ночные смены
+      professional_roles:
+        - id: string
+          name: string
+      accept_incomplete_resumes: boolean  # Можно ли откликаться с неполным резюме
+      experience:
+        id: string  # ID опыта
+        name: string  # Описание опыта
+      employment:
+        id: string  # ID типа занятости
+        name: string  # Описание типа занятости
+      employment_form:
+        id: string
+        name: string
+      internship: boolean  # Стажировка или нет
+      adv_response_url: null | string  # URL отклика на рекламную вакансию (если есть)
+      is_adv_vacancy: boolean  # Является ли вакансия рекламной
+      adv_context: null | object  # Контекст рекламной вакансии (если есть)
