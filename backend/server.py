@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import RedirectResponse
+import json
 import requests
 import os
 import sys
@@ -30,4 +31,6 @@ def oauth_callback(request: Request, code: str):
        'HH-User-Agent': 'boyceing.ru/1.0 boyceing@boyceing.ru'
     }
     info = requests.get('https://api.hh.ru/me', headers=headers)
-    return info.json()
+    user_data_json = json.dumps(info.json())
+    encoded_user_data = requests.utils.quote(user_data_json)
+    return RedirectResponse(f"https://boyceing.ru?user={requests.utils.quote(str(encoded_user_data))}")
