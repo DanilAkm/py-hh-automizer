@@ -1,11 +1,12 @@
+# https://api.hh.ru/openapi/redoc#section/Avtorizaciya/Process-avtorizacii
+
 import requests
 import json
 
 TOKEN_URL = 'https://api.hh.ru/oauth/token'
 
 def get_client_access_token(client_id: str, client_secret: str) -> dict:
-  """
-  Method returns a new application token to authorize the application
+  """!Method returns a new application token to authorize the application
 
   @param client_id     Client_id from dev.hh.ru/admin.
   @param client_secret Client_secret from dev.hh.ru/admin.
@@ -30,8 +31,7 @@ def get_client_access_token(client_id: str, client_secret: str) -> dict:
   return response.json()
 
 def get_user_access_token(client_id: str, client_secret: str, auth_code: str) -> dict:
-  """
-  Returns a dict containing user's access token, refresh token and expiration time
+  """!Returns a dict containing user's access token, refresh token and expiration time
 
   @param client_id     Client_id from dev.hh.ru/admin.
   @param client_secret Client_secret from dev.hh.ru/admin.
@@ -63,8 +63,7 @@ def get_user_access_token(client_id: str, client_secret: str, auth_code: str) ->
   return response.json()
 
 def refresh_access_token(refresh_token: str) -> dict:
-  """
-  Returns a dict containing user's new access token, refresh token and expiration time
+  """!Returns a dict containing user's new access token, refresh token and expiration time
 
   @param refresh_token Refresh token of an expired access token.
 
@@ -88,7 +87,7 @@ def refresh_access_token(refresh_token: str) -> dict:
     return None
   return response.json()
 
-def invalidate_token(access_token: str):
+def invalidate_token(access_token: str) -> dict:
 
   headers = {
     'Authorization': f'Bearer {access_token}'
